@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas,wav,mp3
 version = 0.1
 
 # (list) Application requirements
-requirements =  python3,kivy,kivymd==1.1.1,pillow,sdl2_ttf==2.0.15
+requirements = python3,kivy,kivymd,pillow
 
 # (list) Supported orientations
 orientation = portrait
@@ -44,7 +44,7 @@ android.build_tools_version = 34.0.0
 android.accept_sdk_license = True
 
 # (list) The Android archs to build for
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 
 # (bool) enables Android auto backup feature
 android.allow_backup = True
