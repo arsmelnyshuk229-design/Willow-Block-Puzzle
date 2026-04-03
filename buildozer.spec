@@ -6,26 +6,21 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,wav,mp3,txt
 version = 0.1
 
-# Вимоги саме для твого нового Pygame коду
-requirements = python3,pygame,pillow
+# ВАЖЛИВО: для Pygame потрібен спеціальний набір
+requirements = python3,pygame
 
 orientation = portrait
 
 # Android specific
 fullscreen = 1
-android.api = 33
+android.api = 31
+# Знижуємо до 31 — це найбільш стабільна версія для Pygame на GitHub!
 android.minapi = 21
-android.build_tools_version = 33.0.0
-android.ndk = 25b
+android.build_tools_version = 31.0.0
 android.accept_sdk_license = True
-
-# Вмикаємо обидві архітектури: для нових (arm64) і старих (v7a) телефонів
 android.archs = arm64-v8a, armeabi-v7a
 
-android.allow_backup = True
-android.debug_artifact = apk
-
-# Важливо для Pygame
+# ЦЕ ГОЛОВНЕ ДЛЯ PYGAME:
 p4a.bootstrap = sdl2
 
 [buildozer]
