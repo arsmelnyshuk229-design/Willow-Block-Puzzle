@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas,wav,mp3
 version = 0.1
 
 # (list) Application requirements
-requirements = python3,kivy==2.2.1,kivymd,pillow,sdl2_ttf==2.0.15
+requirements =  python3,kivy,kivymd==1.1.1,pillow,sdl2_ttf==2.0.15
 
 # (list) Supported orientations
 orientation = portrait
