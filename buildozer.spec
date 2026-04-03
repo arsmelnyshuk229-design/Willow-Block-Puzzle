@@ -38,7 +38,7 @@ android.api = 34
 android.minapi = 24
 
 # (str) Android build tools version to use
-android.build_tools_version = 34.0.0
+android.build_tools_version = 33.0.0
 
 # (bool) If True, then automatically accept SDK license
 android.accept_sdk_license = True
